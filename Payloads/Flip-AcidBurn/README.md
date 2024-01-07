@@ -1,18 +1,3 @@
-![Logo](https://github.com/I-Am-Jakoby/hak5-submissions/blob/main/Assets/logo-170-px.png?raw=true)
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#Description">Description</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#Contributing">Contributing</a></li>
-    <li><a href="#Version-History">Version History</a></li>
-    <li><a href="#Contact">Contact</a></li>
-    <li><a href="#Acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 # Acid Burn
 
 A script I put together to torment Call Center Scammers but can be used on your friends as well...or foes.
